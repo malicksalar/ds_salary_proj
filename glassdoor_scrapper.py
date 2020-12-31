@@ -3,6 +3,10 @@ from selenium import webdriver
 import time
 import pandas as pd
 
+#author = Kenarapfaik
+#url = https://github.com/arapfaik/scraping-glassdoor-selenium
+
+
 def get_jobs(keyword, num_jobs, verbose, path, slp_time):
     
     '''Gathers jobs as a dataframe, scraped from Glassdoor'''
